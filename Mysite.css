@@ -42,6 +42,7 @@ nav {
 
 .main-visual {
   height: 650px;
+  margin: auto;
   background-image: url(img/mv.png);
 }
 
@@ -59,15 +60,19 @@ nav {
   color: #FAFAFA;
 }
 
+.box1 {
+  background-color: #ECEFF1
+}
+
 .portfolio {
   width: 920px;
   margin: auto;
-  margin-bottom: 90px;
+  padding-bottom: 90px;
 }
 
 .portfolio-title {
   font-size: 32px;
-  margin-top: 90px;
+  padding-top: 90px;
   color: #000000;
   text-align: center;
   position: relative;
