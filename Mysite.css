@@ -125,5 +125,94 @@ nav {
   padding-right: 10px;
 }
 
+.box2 {
+  text-align: center;
+}
 
+.feature-title {
+  width: 980px;
+  margin: auto;
+  margin-top: 90px;
+  font-size: 32px;
+  color: #000000;
+  position: relative;
+  margin-bottom: 38px;
+}
+
+.feature-title::after {
+  position: absolute;
+  content: "";
+  background-color: #EC715F;
+  width: 70px;
+  height: 3px;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Strength-box {
+  width: 980px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.Strength1 {
+  font-size: 16px;
+  color: #000000;
+  padding-right: 10px;
+}
+
+.icon {
+  margin-top: 10px;
+  font-size: 60px;
+}
+
+.Strength2 {
+  font-size: 16px;
+  color: #000000;
+  padding-right: 10px;
+}
+
+.Strength3 {
+  font-size: 16px;
+  color: #000000;
+}
+
+.Strength-title {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.box3 {
+  width: 1024px;
+  margin: auto;
+  margin-top: 90px;
+}
+
+.Profile {
+  text-align: center;
+}
+
+.Profile-title {
+  font-size: 32px;
+  color: #000000;
+  position: relative;
+  margin-bottom: 38px;
+}
+
+.Profile-title::after {
+  position: absolute;
+  content: "";
+  background-color: #EC715F;
+  width: 70px;
+  height: 3px;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
